@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog M A</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+
+    <header class="encabezado">
+
+        <a href="#" class="logo" onclick="mostrarDatos()">
+            <img src="/imagenes/css_logo.avif" alt="Logo css" height="130" width="120">
+            <h2 class="nombreApellido">Marcos Altamirano</h2>
+        </a>
+
+        <nav>
+            <a href="" class="nav-link">Inicio</a>
+            <a href="" class="nav-link">Nosotros</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenido">
+        <div class="txtContenido">
+            <div><img src="https://picsum.photos/150/200" alt="lorempicsum"></div>
+    
+            <div class="relleno">
+            <h2>FullStack</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium porro quisquam temporibus cumque omnis tempore ad libero ullam tenetur delectus?</p>
+            <a href="#" class="tiempo">1min</a>
+            <br>
+        </div>
+        
+        </div>
+        <div class="txtContenido">
+            <div><img src="https://picsum.photos/150/200" alt="lorempicsum"></div>
+    
+            <div class="relleno">
+            <h2>FullStack</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium porro quisquam temporibus cumque omnis tempore ad libero ullam tenetur delectus?</p>
+            <a href="#" class="tiempo">1min</a>
+            </div>
+        
+        </div>
+        <div class="txtContenido">
+            <div><img src="https://picsum.photos/150/200" alt="lorempicsum"></div>
+    
+            <div class="relleno">
+            <h2>FullStack</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium porro quisquam temporibus cumque omnis tempore ad libero ullam tenetur delectus?</p>
+            <a href="#" class="tiempo">1min</a>
+            </div>
+        
+        </div>
+    </main>
+    <section class="lateral">
+        <div>
+            <section class="registro">
+                <h4>Formulario Registro</h4> 
+                 <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+                 <input class="controles" type="text" name="apellidos" id="nombres" placeholder="Ingrese su apellido">
+         
+                 <div class="control_sel">
+                     <label class="sel_prov" for="opciones">Selecciona tu provincia</label>
+             <select class="opciones" id="opciones" name="opciones">
+             <option value="opcion1">Buenos Aires</option >
+             <option value="opcion2">Cordoba</option >
+             <option value="opcion3">Mendoza</option >
+             <option value="opcion4">Salta</option >
+             <option value="opcion5">Santa fé</option >
+             </select></div>
+         
+                 <input class="controles" type="email" name="correo" id="nombres" placeholder="Ingrese su correo">
+                 <input class="controles" type="password" name="nombres" id="nombres" placeholder="Ingrese su contraseña">
+         
+                 <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                 
+                 <input class="boton_inp" type="button" value="Registrar">
+                 
+                 <p><a href="#">¿Ya tengo cuenta?</a></p>
+             </section>
+             <div class="pelota"></div>
+        </div>
+    </section>
+
+    <footer class="pie">
+        <div class="parte_1">
+                <figure>
+                    <a href="#">
+                        <img src="/imagenes/cohete.png" alt="cohete" height="100" width="100"></a>
+                    </figure>
+                    <small>&copy; 2024 <b>MarcosAltamirano</b> - Todos los Derechos Reservados</small></div>
+            <div class="box_2">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, sequi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, molestias!</p>
+            </div>
+            <div class="box_3">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="#" class="facebook">
+                        <img src="/imagenes/facebook.png" alt="Logo facebook" width="50" height="50" >
+                    </a>
+                    <a href="#" class="instagram">
+                        <img src="/imagenes/instagram.png" alt="Logo instagram" height="50" width="50">
+                    </a>
+                    <a href="#" class="twiter">
+                        <img src="/imagenes/twitter-x.png" alt="Logo twitter-x" height="50" width="50">
+                    </a>
+                    <a href="#" class="youtube">
+                        <img src="/imagenes/youtube.png" alt="Logo youtube" width="55" height="50">
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+    </div>
+    
+</body>
+<script>
+    function mostrarDatos() {
+        alert("Estudiante de Diplomatura en Desarrollo Web FullStack 0224")
+    } 
+</script>
+</html>
